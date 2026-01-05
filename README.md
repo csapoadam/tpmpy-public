@@ -1,4 +1,4 @@
-# Copyright (C) 2025 Corvinus University of Budapest <adambalazs.csapo@uni-corvinus.hu>
+# Copyright (C) 2025 Corvinus University of Budapest
 This package was developed as part of project ID 2024-1.2.3-HU-RIZONT-2024-00030
 
 # tpmpy
