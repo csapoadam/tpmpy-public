@@ -52,4 +52,4 @@ def progress_bar(current, total, progress_msg=None, bar_length=50, end=None):
     elapsed_time_str = get_duration_as_str_from_secs(elapsed_time)
     remaining_time_str = get_duration_as_str_from_secs(remaining_time)
 
-    print(f"{color_code}{progress_msg if progress_msg is not None else ""} [{arrow}{padding}] {int(fraction*100)}%\033[0m | Elapsed: {elapsed_time_str} | Remaining: {remaining_time_str}", end=end_char)
+    print(f"{color_code}{progress_msg if progress_msg is not None else ''} [{arrow}{padding}] {int(fraction*100)}%\033[0m | Elapsed: {elapsed_time_str} | Remaining: {remaining_time_str}", end=end_char)
