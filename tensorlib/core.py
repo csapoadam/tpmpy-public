@@ -242,7 +242,7 @@ def check_multiplication_dims(dims, N, M, vidx=False, without=False):
         dims = np.arange(N)
     if without:
         dims = np.setdiff1d(range(N), dims)
-    if not np.in1d(dims, np.arange(N)).all():
+    if not np.isin(dims, np.arange(N)).all():
         raise ValueError('Invalid dimensions')
     P = len(dims)
     sidx = np.argsort(dims)
